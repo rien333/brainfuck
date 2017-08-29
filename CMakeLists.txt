@@ -7,7 +7,7 @@ set(brainfuck_VERSION_PATCH 1)
 
 option(ENABLE_DEBUG "Enable the debug extension for brainfuck.")
 option(BUILD_SHARED_LIB "Build a shared library.")
-option(INSTALL_EXAMPLES "Install the examples in CMAKE_INSTALL_PREFIX/share/brainfuck.")
+option(INSTALL_EXAMPLES "Install the examples in $CMAKE_INSTALL_PREFIX/share/brainfuck.")
 option(BUILD_STATIC_LIB "Build a static library." ON)
 option(ENABLE_EDITLINE "Enable GNU readline functionality provided by the editline library." ON)
 
